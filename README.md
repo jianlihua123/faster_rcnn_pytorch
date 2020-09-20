@@ -28,6 +28,10 @@ by Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun.
 ### Installation and demo
 0. Install the requirements (you can use pip or [Anaconda](https://www.continuum.io/downloads)):
 
+  `````
+    conda create --name FRCNN python=2.7
+    conda install pytorch=0.3.0 cuda90 -c pytorch
+  `````
     ```
     conda install pip pyyaml sympy h5py cython numpy scipy
     conda install -c menpo opencv3
